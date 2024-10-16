@@ -55,21 +55,21 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
-        "Evolver/src/**/*.java",
-        "Evolver/src/**/*.kt",
+        "Deltalizer/src/**/*.java",
+        "Deltalizer/src/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
     ],
     use_resource_processor: true,
 
-    aaptflags: ["--extra-packages org.evolution.settings"],
+    aaptflags: ["--extra-packages org.cavvoh.settings"],
 
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
-        "Evolver/res",
+        "Deltalizer/res",
         "SettingsGoogle/res",
     ],
     static_libs: [

@@ -5214,12 +5214,12 @@
             </intent-filter>
         </activity>
 
-        <!-- The Evolver -->
-        <activity android:name="Settings$EvolutionSettingsActivity"
-                  android:label="@string/evolver_dashboard_title"
+        <!-- The Deltalizer -->
+        <activity android:name="Settings$CavvohSettingsActivity"
+                  android:label="@string/deltalizer_dashboard_title"
                   android:exported="true">
             <intent-filter android:priority="1">
-                <action android:name="org.evolution.settings.EvolutionSettings" />
+                <action android:name="org.cavvoh.settings.CavvohSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -5228,11 +5228,11 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.order" android:value="-1"/>
             <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/evolver_dashboard_summary"/>
+                       android:resource="@string/deltalizer_dashboard_summary"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="org.evolution.settings.EvolutionSettings" />
+                       android:value="org.cavvoh.settings.CavvohSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
-                       android:value="@string/menu_key_evolver"/>
+                       android:value="@string/menu_key_deltalizer"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
         </activity>
