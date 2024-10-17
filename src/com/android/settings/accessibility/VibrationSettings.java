@@ -33,7 +33,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import androidx.preference.Preference;
 
-import com.android.internal.util.evolution.Utils;
+import com.android.internal.util.cavvoh.Utils;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.flags.Flags;
@@ -43,7 +43,7 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.evolution.settings.preferences.SystemSettingSwitchPreference;
+import org.cavvoh.settings.preferences.SystemSettingSwitchPreference;
 
 /** Accessibility settings for the vibration. */
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)

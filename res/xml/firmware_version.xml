@@ -21,12 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Evolution X logo -->
+    <!-- Cavvoh OS logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="evolution_logo"
-        android:layout="@layout/evolution_logo"
+        android:key="cavvoh_logo"
+        android:layout="@layout/cavvoh_logo"
         android:clickable="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CavvohOSLogoPreferenceController"/>
 
     <!-- Android version -->
     <Preference
@@ -93,7 +93,7 @@
         android:title="@string/build_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXBuildMaintainerPreferenceController">
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CavvohOSBuildMaintainerPreferenceController">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="@string/build_maintainer_donate_url"/>

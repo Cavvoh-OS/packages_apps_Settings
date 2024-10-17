@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2019-2023 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">Evolution 自定义</string>
+    <string name="evolver_dashboard_title">Cavvoh 自定义</string>
     <string name="evolver_dashboard_summary">欢迎来到进化之路</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">不验证</string>
@@ -14,7 +14,7 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC 模型</string>
     <string name="total_ram">总内存</string>
-    <!-- About device screen, Evolution X -->
+    <!-- About device screen, Cavvoh OS -->
     <!-- About device screen, Build date -->
     <string name="build_date">编译日期</string>
     <!-- About device screen, build maintainer -->

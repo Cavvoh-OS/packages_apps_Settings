@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 The Evolution X Project
+ * Copyright (C) 2019-2024 The Cavvoh OS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -17,13 +17,13 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class EvolutionXBuildMaintainerPreferenceController extends BasePreferenceController {
+public class CavvohOSBuildMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "EvolutionXBuildMaintainerCtrl";
+    private static final String TAG = "CavvohOSBuildMaintainerCtrl";
 
     private String mDeviceMaintainer;
 
-    public EvolutionXBuildMaintainerPreferenceController(Context context, String key) {
+    public CavvohOSBuildMaintainerPreferenceController(Context context, String key) {
         super(context, key);
         mDeviceMaintainer = mContext.getResources().getString(R.string.build_maintainer_summary);
     }

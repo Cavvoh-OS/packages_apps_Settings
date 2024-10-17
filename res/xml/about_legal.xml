@@ -37,8 +37,8 @@
 
     <!-- LineageOS License information -->
     <Preference
-        android:key="evolution_license"
-        android:title="@string/evolution_license_title"
+        android:key="cavvoh_license"
+        android:title="@string/cavvoh_license_title"
         settings:controller="com.android.settings.deviceinfo.legal.LineageLicensePreferenceController" />
 
     <!-- Terms and conditions -->

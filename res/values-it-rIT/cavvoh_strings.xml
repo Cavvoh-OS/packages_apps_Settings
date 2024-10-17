@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2019-2023 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Evoluzione in Android 14</string>
+    <string name="deltalizer_dashboard_title">The Deltalizer</string>
+    <string name="deltalizer_dashboard_summary">Deltalize in Android 14</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Non convalidare</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -14,8 +14,8 @@
     <!-- Hardware info -->
     <string name="soc_model">Modello SoC</string>
     <string name="total_ram">RAM totale</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Versione Evolution X</string>
+    <!-- About device screen, Cavvoh OS -->
+    <string name="cavvoh_os_version">Versione Cavvoh OS</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data di compilazione</string>
     <!-- About device screen, build maintainer -->

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2019-2023 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">Setări avansate ROM</string>
-    <string name="evolver_dashboard_summary">Bine ai venit la Eve of Evolution</string>
+    <string name="evolver_dashboard_summary">Bine ai venit la Eve of Cavvoh</string>
     <!-- Menu option for not validating the EAP server -->
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nu s-a specificat niciun certificat. Conexiunea nu va fi privată.</string>
     <!-- Hardware info -->
     <string name="soc_model">Model SoC</string>
     <string name="total_ram">RAM total</string>
-    <!-- About device screen, Evolution X -->
+    <!-- About device screen, Cavvoh OS -->
     <!-- About device screen, Build date -->
     <string name="build_date">Dată compilare</string>
     <!-- About device screen, build maintainer -->

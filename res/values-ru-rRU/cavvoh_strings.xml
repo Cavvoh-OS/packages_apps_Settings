@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 The Evolution X Project
+     Copyright (C) 2019-2024 The Cavvoh OS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Device Info screen. Evolution X legal. -->
-    <string name="evolution_license_title">Правовая информация Evolution X</string>
+    <!-- Device Info screen. Cavvoh OS legal. -->
+    <string name="cavvoh_license_title">Правовая информация Cavvoh OS</string>
     <!-- Android version screen, build maintainer -->
     <string name="build_maintainer">Сопровождающий</string>
     <!-- App search preference -->

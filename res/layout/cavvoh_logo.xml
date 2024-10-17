@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2024 The Evolution X Project
+     Copyright (C) 2019-2024 The Cavvoh OS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 
@@ -17,5 +17,5 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:scaleType="centerInside"
-            android:src="@drawable/ic_evolution_logo"/>
+            android:src="@drawable/ic_cavvoh_logo"/>
 </LinearLayout>

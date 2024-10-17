@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 The Evolution X Project
+ * Copyright (C) 2019-2024 The Cavvoh OS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -19,14 +19,14 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class EvolutionXLogoPreferenceController extends BasePreferenceController {
+public class CavvohOSLogoPreferenceController extends BasePreferenceController {
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://evolution-x.org/");
-    private static final String TAG = "EvolutionXLogoPreferenceCtrl";
+    private static final String TAG = "CavvohOSLogoPreferenceCtrl";
 
     private final PackageManager mPackageManager;
 
-    public EvolutionXLogoPreferenceController(Context context, String preferenceKey) {
+    public CavvohOSLogoPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }

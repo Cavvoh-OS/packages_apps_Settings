@@ -203,7 +203,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import org.evolution.settings.EvolutionSettings;
+import org.cavvoh.settings.CavvohSettings;
 
 public class SettingsGateway {
 
@@ -348,7 +348,7 @@ public class SettingsGateway {
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
             SystemDashboardFragment.class.getName(),
-            EvolutionSettings.class.getName(),
+            CavvohSettings.class.getName(),
             NetworkDashboardFragment.class.getName(),
             ConnectedDeviceDashboardFragment.class.getName(),
             UsbDetailsFragment.class.getName(),
@@ -401,7 +401,7 @@ public class SettingsGateway {
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
             // Home page
-            Settings.EvolutionSettingsActivity.class.getName(),
+            Settings.CavvohSettingsActivity.class.getName(),
             Settings.NetworkDashboardActivity.class.getName(),
             Settings.ConnectedDeviceDashboardActivity.class.getName(),
             Settings.AppDashboardActivity.class.getName(),

@@ -67,7 +67,7 @@
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomBedtimePreferenceController" />
         
-    <org.evolution.settings.preferences.SecureSettingListPreference
+    <org.cavvoh.settings.preferences.SecureSettingListPreference
         android:key="black_theme_style"
         android:title="@string/black_theme_style_title"
         android:summary="%s"

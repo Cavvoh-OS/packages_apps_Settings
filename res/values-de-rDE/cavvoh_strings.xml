@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Evolution X
+     Copyright (C) 2019-2023 Cavvoh OS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Willkommen zum Vorabend der Evolution</string>
+    <string name="evolver_dashboard_summary">Willkommen zum Vorabend der Cavvoh</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Nicht prüfen</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -14,8 +14,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">Gesamter Arbeitsspeicher</string>
-    <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Evolution X Version</string>
+    <!-- About device screen, Cavvoh OS -->
+    <string name="evolution_x_version">Cavvoh OS Version</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Build-Datum</string>
     <!-- About device screen, build maintainer -->
